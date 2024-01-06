@@ -1,6 +1,6 @@
 import { Builder, By, until, WebDriver, Key } from 'selenium-webdriver';
 
-async function performTest() {
+async function performTest() { 
   // Step 1: Open the site
   const driver: WebDriver = await new Builder().forBrowser('chrome').build();
   await driver.get('https://www.terranovastyle.com/ba_bo/');
