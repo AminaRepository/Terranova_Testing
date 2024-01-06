@@ -2,7 +2,7 @@ const { Builder, By, until, Key } = require('selenium-webdriver');
 
 async function performTest() {
   // Step 1: Open the Terranova BiH homepage
-  const driver = await new Builder().forBrowser('chrome').build(); 
+  const driver = await new Builder().forBrowser('chrome').build();
   await driver.get('https://www.terranovastyle.com/ba_bo/');
 
   // Step -: Decline cookies
